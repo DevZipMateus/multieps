@@ -1,19 +1,8 @@
-
 import { CheckCircle } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
-
 const AboutSection = () => {
-  const features = [
-    'Produtos leves e de fácil instalação',
-    'Material isolante térmico e acústico',
-    'Soluções personalizadas para sua obra',
-    'Design diferenciado para fachadas',
-    'Redução do peso estrutural da construção',
-    'Atendimento personalizado'
-  ];
-
-  return (
-    <section id="sobre-nós" className="py-24 bg-white">
+  const features = ['Produtos leves e de fácil instalação', 'Material isolante térmico e acústico', 'Soluções personalizadas para sua obra', 'Design diferenciado para fachadas', 'Redução do peso estrutural da construção', 'Atendimento personalizado'];
+  return <section id="sobre-nós" className="py-24 bg-white">
       <div className="section-container">
         <AnimatedSection>
           <h2 className="section-title">Sobre Nós</h2>
@@ -26,11 +15,7 @@ const AboutSection = () => {
           <AnimatedSection animation="slide-in-left">
             <div className="relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1588877612884-844740900215?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" 
-                  alt="Produtos de EPS para construção" 
-                  className="w-full h-auto object-cover"
-                />
+                <img alt="Produtos de EPS para construção" className="w-full h-auto object-cover" src="/lovable-uploads/63580ada-0b81-446d-bb40-2c15526e7e63.png" />
               </div>
               
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-primary/10 rounded-full z-0"></div>
@@ -55,12 +40,10 @@ const AboutSection = () => {
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">
-              {features.map((feature) => (
-                <div key={feature} className="flex items-center gap-2">
+              {features.map(feature => <div key={feature} className="flex items-center gap-2">
                   <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
                   <span className="text-gray-700">{feature}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
             
             <a href="#contato" className="btn-primary inline-block mt-4">
@@ -69,8 +52,6 @@ const AboutSection = () => {
           </AnimatedSection>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
