@@ -19,40 +19,40 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <AnimatedSection animation="fade-in-up" className="space-y-6">
             <span className="inline-block text-sm font-semibold py-1 px-3 bg-primary/10 text-primary rounded-full">
-              Contabilidade Moderna e Eficiente
+              Soluções em EPS para Construção Civil
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-              Soluções Contábeis <br />
-              <span className="text-primary">para seu Negócio</span>
+              Design e Leveza <br />
+              <span className="text-primary">para sua Obra</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
-              Oferecemos soluções contábeis completas, focadas em eficiência e tecnologia, 
-              para que você possa se concentrar no crescimento da sua empresa.
+              Somos especializados na fabricação de molduras e artefatos de EPS para construção civil, 
+              trazendo beleza e leveza para seu projeto arquitetônico.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <a href="#contato" className="btn-primary flex items-center gap-2">
                 Solicitar Orçamento
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <a href="#serviços" className="btn-secondary">
-                Conheça Nossos Serviços
+              <a href="#servicos" className="btn-secondary">
+                Conheça Nossos Produtos
               </a>
             </div>
 
-            <div className="pt-8 flex items-center gap-8">
+            <div className="pt-8 flex flex-wrap items-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">+500</div>
-                <div className="text-sm text-gray-600">Clientes Atendidos</div>
+                <div className="text-3xl font-bold text-primary">Leve</div>
+                <div className="text-sm text-gray-600">Facilidade de Instalação</div>
               </div>
-              <div className="h-12 w-px bg-gray-200"></div>
+              <div className="hidden sm:block h-12 w-px bg-gray-200"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">15+</div>
-                <div className="text-sm text-gray-600">Anos de Experiência</div>
+                <div className="text-3xl font-bold text-primary">Durável</div>
+                <div className="text-sm text-gray-600">Alta Resistência</div>
               </div>
-              <div className="h-12 w-px bg-gray-200"></div>
+              <div className="hidden sm:block h-12 w-px bg-gray-200"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">98%</div>
-                <div className="text-sm text-gray-600">Satisfação</div>
+                <div className="text-3xl font-bold text-primary">Econômico</div>
+                <div className="text-sm text-gray-600">Custo-Benefício</div>
               </div>
             </div>
           </AnimatedSection>
@@ -63,8 +63,8 @@ const HeroSection = () => {
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-200 rounded-full filter blur-xl"></div>
               <div className="relative z-10 bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-1 transform transition-all duration-500 hover:scale-[1.01] hover:shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" 
-                  alt="Contabilidade Profissional" 
+                  src="https://images.unsplash.com/photo-1621909908810-e2edd79677f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" 
+                  alt="Molduras de EPS para construção civil" 
                   className="rounded-2xl w-full h-auto object-cover"
                 />
               </div>
