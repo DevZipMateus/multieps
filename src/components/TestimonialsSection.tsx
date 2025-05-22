@@ -1,31 +1,30 @@
-
 import TestimonialCard from './TestimonialCard';
 import AnimatedSection from './AnimatedSection';
 
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      content: "A parceria com a Contabilify trouxe resultados excelentes para nossa empresa. A equipe é atenciosa e nos ajudou a reduzir significativamente nossa carga tributária.",
+      content: "Os produtos da Multi EPS fizeram grande diferença em nossa construção. As molduras são leves e fáceis de instalar, proporcionando um acabamento perfeito para a fachada.",
       author: "Carlos Silva",
-      role: "Diretor Financeiro",
+      role: "Engenheiro Civil",
       rating: 5
     },
     {
-      content: "Profissionais extremamente competentes e atualizados. Sempre nos mantêm informados sobre mudanças na legislação e nos orientam da melhor forma possível.",
+      content: "A qualidade do EPS fornecido pela Multi EPS é excelente. O material tem ótimo isolamento térmico e acústico, além de reduzir significativamente o peso estrutural da nossa obra.",
       author: "Ana Souza",
-      role: "Empresária",
+      role: "Arquiteta",
       rating: 5
     },
     {
-      content: "Desde que contratamos os serviços da Contabilify, temos mais tempo para focar no nosso negócio. A tranquilidade de saber que nossa contabilidade está em boas mãos não tem preço.",
+      content: "O atendimento personalizado da equipe da Multi EPS nos ajudou a encontrar soluções específicas para nosso projeto. As molduras de EPS com revestimento cimentício ficaram perfeitas.",
       author: "Marcos Oliveira",
-      role: "CEO",
+      role: "Construtor",
       rating: 5
     },
     {
-      content: "Atendimento personalizado e de qualidade. Os relatórios gerenciais têm sido fundamentais para tomarmos decisões estratégicas em nossa empresa.",
+      content: "Estamos impressionados com o design diferenciado que conseguimos em nossa fachada usando os produtos da Multi EPS. A instalação foi rápida e o resultado final superou nossas expectativas.",
       author: "Patricia Mendes",
-      role: "Gerente Administrativa",
+      role: "Proprietária",
       rating: 5
     }
   ];
