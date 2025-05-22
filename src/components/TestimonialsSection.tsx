@@ -1,5 +1,8 @@
+
 import TestimonialCard from './TestimonialCard';
 import AnimatedSection from './AnimatedSection';
+import { Button } from './ui/button';
+import { Instagram } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -55,6 +58,18 @@ const TestimonialsSection = () => {
             </AnimatedSection>
           ))}
         </div>
+        
+        <AnimatedSection className="flex justify-center mt-12">
+          <Button 
+            variant="social" 
+            size="lg"
+            className="group flex items-center gap-3 py-6 px-8 rounded-full shadow-md hover:shadow-lg transition-all"
+            onClick={() => window.open('https://www.instagram.com/multi_eps/', '_blank')}
+          >
+            <Instagram className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
+            <span className="font-medium text-base">Conheça mais sobre nós no Instagram</span>
+          </Button>
+        </AnimatedSection>
       </div>
     </section>
   );
