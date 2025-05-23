@@ -1,5 +1,6 @@
 
 import { Facebook, Instagram, Linkedin, Twitter, Calendar, FileText, Calculator, Phone, Mail, MapPin } from 'lucide-react';
+import { Separator } from './ui/separator';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,35 +10,29 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Contabilify</h3>
+            <h3 className="text-xl font-bold mb-4">MULTI EPS</h3>
             <p className="text-gray-400 mb-6">
-              Soluções contábeis completas para empresas de todos os portes, com foco em qualidade e resultados.
+              Fabricação de molduras e artefatos de EPS para construção civil. 
+              Design e leveza para sua obra.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.instagram.com/multi_eps/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Twitter className="h-5 w-5" />
+                <Facebook className="h-5 w-5" />
               </a>
             </div>
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Serviços</h3>
+            <h3 className="text-xl font-bold mb-4">Produtos</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#serviços" className="hover:text-white transition-colors">Contabilidade</a></li>
-              <li><a href="#serviços" className="hover:text-white transition-colors">Fiscal</a></li>
-              <li><a href="#serviços" className="hover:text-white transition-colors">Departamento Pessoal</a></li>
-              <li><a href="#serviços" className="hover:text-white transition-colors">Abertura de Empresa</a></li>
-              <li><a href="#serviços" className="hover:text-white transition-colors">Consultoria Empresarial</a></li>
-              <li><a href="#serviços" className="hover:text-white transition-colors">Planejamento Tributário</a></li>
+              <li><a href="#serviços" className="hover:text-white transition-colors">Molduras de EPS</a></li>
+              <li><a href="#serviços" className="hover:text-white transition-colors">Molduras com Revestimento Cimentício</a></li>
+              <li><a href="#serviços" className="hover:text-white transition-colors">Blocos para Volumetrias</a></li>
+              <li><a href="#serviços" className="hover:text-white transition-colors">Chapas de EPS</a></li>
+              <li><a href="#serviços" className="hover:text-white transition-colors">Materiais de Fixação</a></li>
             </ul>
           </div>
           
@@ -45,26 +40,23 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Links Úteis</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors flex items-center">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  Agenda Tributária
+                <a href="https://www.instagram.com/multi_eps/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center">
+                  <Instagram className="h-4 w-4 mr-2" />
+                  Instagram
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors flex items-center">
+                <a href="#sobre" className="hover:text-white transition-colors flex items-center">
                   <FileText className="h-4 w-4 mr-2" />
-                  Tabelas Práticas
+                  Sobre Nós
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors flex items-center">
+                <a href="#serviços" className="hover:text-white transition-colors flex items-center">
                   <Calculator className="h-4 w-4 mr-2" />
-                  Calculadoras
+                  Serviços
                 </a>
               </li>
-              <li><a href="#" className="hover:text-white transition-colors">Receita Federal</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Previdência Social</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">FGTS</a></li>
             </ul>
           </div>
           
@@ -76,8 +68,7 @@ const Footer = () => {
                   <Phone className="h-3 w-3" />
                 </div>
                 <div>
-                  <p>(11) 5555-5555</p>
-                  <p>(11) 98765-4321</p>
+                  <p>(42) 99837-0067</p>
                 </div>
               </li>
               <li className="flex items-start">
@@ -85,7 +76,7 @@ const Footer = () => {
                   <Mail className="h-3 w-3" />
                 </div>
                 <div>
-                  <p>contato@contabilify.com.br</p>
+                  <p>multieps@multieps.com.br</p>
                 </div>
               </li>
               <li className="flex items-start">
@@ -93,16 +84,19 @@ const Footer = () => {
                   <MapPin className="h-3 w-3" />
                 </div>
                 <div>
-                  <p>Av. Paulista, 1000 - Bela Vista</p>
-                  <p>São Paulo - SP, 01310-000</p>
+                  <p>Rua Francisco Xavier Scharr, 111</p>
+                  <p>Ponta Grossa - PR</p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8 text-gray-400 text-sm text-center">
-          <p>&copy; {currentYear} Contabilify. Todos os direitos reservados.</p>
+        <div className="mt-12 pt-8 border-t border-gray-800">
+          <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+            <p>&copy; {currentYear} MULTI EPS. Todos os direitos reservados.</p>
+            <p className="mt-2 md:mt-0">Responsável: Jean Francisco dos Santos</p>
+          </div>
         </div>
       </div>
     </footer>
